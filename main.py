@@ -5,7 +5,7 @@ import google.generativeai as genai
 from exchanges import exchange_names
 
 # Set your Google AI API key
-genai.configure(api_key='AIzaSyD_g7AqDCPGExgsf1NbQjSE0dmDhYv3FS4')
+genai.configure(api_key=st.secrets["genai_key"])
 
 # Define the model
 model = genai.GenerativeModel('gemini-pro')
