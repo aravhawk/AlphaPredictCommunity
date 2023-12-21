@@ -1,0 +1,28 @@
+# AlphaPredict exchange mapping
+exchange_names = {
+    "NMS": "NASDAQ",
+    "NYQ": "New York Stock Exchange (NYSE)",
+    "ASE": "NYSE American (AMEX)",
+    "NMS": "NASDAQ",
+    "NGM": "NASDAQ Global Market",
+    "NCM": "NASDAQ Capital Market",
+    "PNK": "Pink Sheets",
+    "OTC": "OTC Markets",
+    "LSE": "London Stock Exchange (LSE)",
+    "TSE": "Tokyo Stock Exchange (TSE)",
+    "HKG": "Hong Kong Stock Exchange (HKEX)",
+    "SHA": "Shanghai Stock Exchange (SSE)",
+    "SHE": "Shenzhen Stock Exchange (SZSE)",
+    "FRA": "Frankfurt Stock Exchange (FWB)",
+    "PAR": "Euronext Paris",
+    "BRU": "Euronext Brussels",
+    "AMS": "Euronext Amsterdam",
+    "LIS": "Euronext Lisbon",
+    "MIL": "Borsa Italiana",
+    "SWX": "SIX Swiss Exchange",
+    "ASX": "Australian Securities Exchange (ASX)",
+    "TSX": "Toronto Stock Exchange (TSX)",
+    "BOM": "Bombay Stock Exchange (BSE)",
+    "NSE": "National Stock Exchange of India (NSE)",
+    # Add more as needed
+}
