@@ -5,10 +5,10 @@ import google.generativeai as genai
 from exchanges import exchange_names
 
 # Set your Google AI API key
-genai.configure(api_key=st.secrets["genai_key"])
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # Define the model
-model = genai.GenerativeModel('gemini-pro')
+model = genai.GenerativeModel('gemini-1.5-pro')
 
 st.title('AlphaPredict')
 
