@@ -8,7 +8,7 @@ from exchanges import exchange_names
 genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 
 # Define the model
-model = genai.GenerativeModel('gemini-1.5-pro')
+model = genai.GenerativeModel('gemini-1.0-pro')
 
 st.title('AlphaPredict')
 
